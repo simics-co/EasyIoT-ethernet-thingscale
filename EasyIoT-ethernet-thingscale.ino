@@ -56,11 +56,11 @@ byte mac[] = { 0x90, 0xA2, 0xDA, 0x10, 0xXX, 0xXX };
 // Set the static IP address to use if the DHCP fails to assign
 IPAddress ip(192, 168, 0, 1);
 
-// Scalenics
-#define SC_USER "YOUR_SCALENICS_ACCOUNT"
+// ThingScale
+#define SC_USER "YOUR_THINGSCALE_ACCOUNT"
 #define DEVICE_TOKEN "YOUR_DEVICE_TOKEN_HERE"
 #define CLIENT_ID "enocean"
-#define MQTT_SERVER "api.scalenics.io"
+#define MQTT_SERVER "m.thingscale.io"
 
 EthernetClient client;
 
